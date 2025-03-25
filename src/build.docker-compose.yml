@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+api:
+   build: ./ContosoTraders.Ui.Website/
+   app id: 81b3166e-c864-4582-8d7d-a0bb5d1697e1
+   app secret: lpf8Q~NT-Qp~DJQkKwlXn9MiDRqCKamiNzCdyaHF
+web:
+   build: ./ContosoTraders.Api.Products
